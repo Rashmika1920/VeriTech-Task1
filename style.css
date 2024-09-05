@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: rgb(200,154,247);
+    font-family:serif
+    color: rgb(40,1,51);
+}
+.h-head{
+    cursor: pointer;
+    border-bottom: 2px dotted rgb(40,1,51);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+img{
+    object-fit: cover;
+}
+.head{
+    background-color:rgb(205,104,222);
+    padding: 12px;
+    display: inline-block;
+    width: 15em;
+    color: white;
+    border-radius: .4em;
+    cursor: pointer;
+    transition: 1s ease-out;
+    border: 2px dotted rgb(40,1,51);
+}
+.head:hover{
+    color: rgb(40,1,51);
+    cursor: pointer;
+    transition: 1s ease-out;
+}
+.section-1 h5, .section-2 h5, .section-3 h5{
+    background-color:rgb(205,104,222) ;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    border-radius: .3em;
+    border: 2px dotted rgb(40,1,51);
+}
+.name{
+    font-size: 1.2em;
+}
+hr{
+    color: rgb(205,104,222) !important;
+}
+footer{
+    background-color:rgb(205,104,222) !important;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-top: 3em;
+}
